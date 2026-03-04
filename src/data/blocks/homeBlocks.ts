@@ -16,7 +16,7 @@ export const homeBlocks: HomeBlock[] = [
 
   { id: "sp-stack-right", type: "spacer", colSpan: 6, rowSpan: 1 },
 
-  { id: "sp-gisele-left", type: "spacer", colSpan: 1, rowSpan: 1 },
+  { id: "sp-gisele-left", type: "spacer", colSpan: 1, rowSpan: 2 },
 
   { id: "gisele", type: "project", colSpan: 4, rowSpan: 2, label: "projeto: gisele", projectSlug: "gisele" },
 
@@ -28,19 +28,19 @@ export const homeBlocks: HomeBlock[] = [
 
   { id: "giggoers", type: "project", colSpan: 3, rowSpan: 1, label: "projeto: giggoers", projectSlug: "giggoers" },
 
-  { id: "sp-before-fabio", type: "spacer", colSpan: 5, rowSpan: 1 },
+  { id: "sp-before-fabio", type: "spacer", colSpan: 5, rowSpan: 2 },
 
-  { id: "fabio", type: "project", colSpan: 4, rowSpan: 2, label: "projeto: fabio", projectSlug: "fabio" },
+  { id: "fabio", type: "project", colSpan: 4, rowSpan: 3, label: "projeto: fabio", projectSlug: "fabio" },
 
   { id: "sp-under-fabio-left", type: "spacer", colSpan: 8, rowSpan: 1 },
 
   { id: "sp-before-portv1", type: "spacer", colSpan: 6, rowSpan: 1 },
 
-  { id: "portv1", type: "project", colSpan: 3, rowSpan: 1, label: "projeto: port v1", projectSlug: "portfolio-v1" },
+  { id: "portv1", type: "project", colSpan: 3, rowSpan: 2, label: "projeto: port v1", projectSlug: "portfolio-v1" },
 
-  { id: "sp-after-portv1", type: "spacer", colSpan: 3, rowSpan: 1 },
+  { id: "sp-after-portv1", type: "spacer", colSpan: 3, rowSpan: 2 },
 
-  { id: "sp-before-contact", type: "spacer", colSpan: 1, rowSpan: 1 },
+  { id: "sp-before-contact", type: "spacer", colSpan: 1, rowSpan: 2 },
 
   { id: "contact", type: "contact", colSpan: 4, rowSpan: 2, label: "contact" },
 
