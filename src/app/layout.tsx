@@ -1,18 +1,28 @@
-import "./globals.css"
+import type { ReactNode } from "react";
+import { cookies } from "next/headers";
+import type { Locale } from "@/data/dictionaries/types";
+import { I18nProvider } from "@/components/i18n/I18nProvider";
 
-export const metadata = {
-  title: "Caio Castelhano – Portfolio v2",
-  description: "Personal portfolio – version 2",
+function getLocale(raw?: string): Locale {
+  return raw === "en" ? "en" : "pt";
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode;
 }) {
+  const cookieStore = await cookies();
+  const raw = cookieStore.get("locale")?.value;
+  const locale = getLocale(raw);
+
   return (
-    <html lang="pt-BR">
-      <body>{children}</body>
+    <html lang={locale}>
+      <body>
+        <I18nProvider initialLocale={locale}>
+          {children}
+        </I18nProvider>
+      </body>
     </html>
-  )
+  );
 }
