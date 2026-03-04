@@ -1,33 +1,17 @@
 .shell {
   height: 100%;
   width: 100%;
-
-  overflow: hidden;
-
-  outline: 1px solid currentColor;
-  outline-offset: -2px;
   background: Canvas;
 }
 
-.density_sm {
-  padding: 12px;
-}
+.density_sm { padding: 12px; }
+/* ainda preciso entender porque isso está causando um padding no rodapé */
+.density_md { padding: 16px; }
+.density_lg { padding: 20px; }
 
-.density_md {
-  padding: 16px;
-}
-
-.density_lg {
-  padding: 20px;
-}
-
-.interactive {
-  cursor: pointer;
-}
-
-
+.interactive { cursor: pointer; }
 
 .interactive:focus-visible {
-  outline: 3px solid currentColor;
-  outline-offset: 4px;
+  outline: none;
+  box-shadow: inset 0 0 0 3px currentColor;
 }

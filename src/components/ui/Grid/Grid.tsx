@@ -2,16 +2,19 @@ import type { ReactNode } from "react";
 import styles from "./Grid.module.css";
 
 type GridProps = {
-  children: ReactNode;
+  children: React.ReactNode;
   "aria-label"?: string;
+  bleed?: boolean;
 };
 
-export function Grid({ children, "aria-label": ariaLabel }: GridProps) {
-  return (
-    <div className={styles.container}>
-      <div className={styles.grid} aria-label={ariaLabel}>
-        {children}
-      </div>
+export function Grid({ children, bleed = false, ...rest }: GridProps) {
+  const grid = (
+    <div className={styles.grid} {...rest}>
+      {children}
     </div>
   );
+
+  if (bleed) return grid;
+
+  return <div className={styles.container}>{grid}</div>;
 }
