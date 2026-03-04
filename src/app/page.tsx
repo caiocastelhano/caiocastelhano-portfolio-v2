@@ -10,7 +10,7 @@ function renderBlockContent(type: string, label?: string) {
 export default function Home() {
   return (
     <main>
-      <Grid aria-label="Homepage grid">
+      <Grid bleed aria-label="Homepage grid">
         {homeBlocks.map((block) => (
           <GridItem key={block.id} colSpan={block.colSpan} rowSpan={block.rowSpan}>
             {block.type === "spacer" ? (
