@@ -1,0 +1,33 @@
+.shell {
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+
+  outline: 1px solid currentColor;
+  outline-offset: -2px;
+  background: Canvas;
+}
+
+.density_sm {
+  padding: 12px;
+}
+
+.density_md {
+  padding: 16px;
+}
+
+.density_lg {
+  padding: 20px;
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+
+
+.interactive:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
