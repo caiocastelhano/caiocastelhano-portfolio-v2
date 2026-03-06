@@ -13,9 +13,9 @@
 
 .grid {
   position: fixed;
-  inset: 0;              /* top:0 right:0 bottom:0 left:0 */
-  overflow: auto;        /* scroll vertical aqui dentro */
-  overflow-x: hidden;    /* sem scroll horizontal */
+  inset: 0;            
+  overflow: auto;        
+  overflow-x: hidden;    
 
   display: grid;
   gap: 0;

@@ -14,7 +14,7 @@ export default function Home() {
         {homeBlocks.map((block) => (
           <GridItem key={block.id} colSpan={block.colSpan} rowSpan={block.rowSpan}>
             {block.type === "spacer" ? (
-              <SpacerBlock />
+              <SpacerBlock variant={block.variant} />
             ) : (
               <BlockShell interactive={block.type === "project"} density="md">
                 {renderBlockContent(block.type, block.label)}

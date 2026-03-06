@@ -1,5 +1,18 @@
 import styles from "./SpacerBlock.module.css";
 
-export function SpacerBlock() {
-  return <div className={styles.spacer} aria-hidden="true" />;
+type SpacerVariant = "a" | "b" | "c";
+
+type Props = {
+  variant: SpacerVariant;
+};
+
+export function SpacerBlock({ variant }: Props) {
+  const variantClass = styles[`spacer${variant.toUpperCase()}`];
+
+  return (
+    <div
+      className={`${styles.spacer} ${variantClass}`}
+      aria-hidden="true"
+    />
+  );
 }
