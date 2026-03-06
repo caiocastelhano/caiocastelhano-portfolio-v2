@@ -6,7 +6,7 @@
 
 .density_sm { padding: 12px; }
 /* ainda preciso entender porque isso está causando um padding no rodapé */
-.density_md { padding: 16px; }
+.density_md { padding: 0px; }
 .density_lg { padding: 20px; }
 
 .interactive { cursor: pointer; }

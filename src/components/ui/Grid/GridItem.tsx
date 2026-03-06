@@ -14,10 +14,6 @@ export function GridItem({ colSpan, rowSpan, children }: GridItemProps) {
         minHeight: 0,
         gridColumn: `span ${colSpan}`,
         gridRow: `span ${rowSpan}`,
-
-        // ✅ Linhas únicas do tabuleiro (sem duplicar)
-        borderRight: "1px solid currentColor",
-        borderBottom: "1px solid currentColor",
       }}
     >
       {children}

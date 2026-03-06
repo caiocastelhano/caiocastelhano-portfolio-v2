@@ -1,5 +1,13 @@
 .spacer {
   height: 100%;
   width: 100%;
-  background-color: aquamarine;
+  pointer-events: none;
+}
+
+.spacerA {
+  background: #002FA7;
+}
+
+.spacerB {
+  background: black;
 }

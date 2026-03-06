@@ -5,13 +5,8 @@ type BlockShellProps<T extends ElementType> = {
   as?: T;
   children: ReactNode;
 
-  /**
-   * Quando true, aplica estilos de hover/focus mais fortes.
-   * Use para blocos clicáveis (ex: projeto, links).
-   */
   interactive?: boolean;
 
-  /** Controle simples de padding por densidade */
   density?: "sm" | "md" | "lg";
 
   className?: string;
