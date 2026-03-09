@@ -2,9 +2,17 @@ import { Grid, GridItem } from "@/components/ui/Grid";
 import { BlockShell } from "@/components/ui/BlockShell";
 import { homeBlocks } from "@/data/blocks/homeBlocks";
 import { SpacerBlock } from "@/blocks/SpacerBlock";
+import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
+import type { HomeBlock } from "@/data/blocks/types";
 
-function renderBlockContent(type: string, label?: string) {
-  return label ?? type;
+function renderBlock(block: HomeBlock) {
+  switch (block.type) {
+    case "social":
+      return <SocialLinksBlock />;
+
+    default:
+      return block.label ?? block.type;
+  }
 }
 
 export default function Home() {
@@ -17,7 +25,7 @@ export default function Home() {
               <SpacerBlock variant={block.variant} />
             ) : (
               <BlockShell interactive={block.type === "project"} density="md">
-                {renderBlockContent(block.type, block.label)}
+                {renderBlock(block)}
               </BlockShell>
             )}
           </GridItem>
