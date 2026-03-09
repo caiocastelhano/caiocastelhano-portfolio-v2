@@ -1,0 +1,1 @@
+export { SocialLinksBlock } from "./SocialLinksBlock";
