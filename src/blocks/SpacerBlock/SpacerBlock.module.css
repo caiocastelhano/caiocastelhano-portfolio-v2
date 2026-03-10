@@ -1,7 +1,7 @@
 .spacer {
   height: 100%;
   width: 100%;
-  pointer-events: none;
+  cursor: url("/assets/cursor/pointer.png"), pointer;
 }
 
 .spacerA {
