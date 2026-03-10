@@ -1,47 +1,9 @@
-import { Grid, GridItem } from "@/components/ui/Grid";
-import { BlockShell } from "@/components/ui/BlockShell";
-import { homeBlocks } from "@/data/blocks/homeBlocks";
-import { SpacerBlock } from "@/blocks/SpacerBlock";
-import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
-import { StackBlock } from "@/blocks/StackBlock";
-import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
-
-import { pt } from "@/data/dictionaries/pt";
-
-import type { HomeBlock } from "@/data/blocks/types";
-
-function renderBlock(block: HomeBlock) {
-  switch (block.type) {
-    case "social":
-      return <SocialLinksBlock />;
-
-    case "toggle":
-      return <LanguageToggleBlock currentLanguage="pt" />;
-
-    case "stack":
-      return <StackBlock dictionary={pt.stackBlock} />;
-
-    default:
-      return block.label ?? block.type;
-  }
-}
+import { HomepageBlocks } from "@/components/home/HomepageBlocks";
 
 export default function Home() {
   return (
     <main>
-      <Grid bleed aria-label="Homepage grid">
-        {homeBlocks.map((block) => (
-          <GridItem key={block.id} colSpan={block.colSpan} rowSpan={block.rowSpan}>
-            {block.type === "spacer" ? (
-              <SpacerBlock variant={block.variant} />
-            ) : (
-              <BlockShell interactive={block.type === "project"} density="md">
-                {renderBlock(block)}
-              </BlockShell>
-            )}
-          </GridItem>
-        ))}
-      </Grid>
+      <HomepageBlocks />
     </main>
   );
 }
