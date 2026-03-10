@@ -1,6 +1,5 @@
+import type { SpacerVariant } from "@/data/blocks/types";
 import styles from "./SpacerBlock.module.css";
-
-type SpacerVariant = "a" | "b" | "c";
 
 type Props = {
   variant: SpacerVariant;
