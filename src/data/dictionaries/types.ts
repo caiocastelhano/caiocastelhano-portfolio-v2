@@ -24,6 +24,16 @@ export type ContactBlockDictionary = {
   email: string;
 };
 
+export type AboutBlockDictionary = {
+  title: string;
+  name: string;
+  lead: string;
+  supportingText: string;
+  paragraphOne: string;
+  paragraphTwoPartOne: string;
+  paragraphTwoPartTwo: string;
+};
+
 export type Dictionary = {
   nav: {
     projects: string;
@@ -32,4 +42,5 @@ export type Dictionary = {
   };
   stackBlock: StackBlockDictionary;
   contactBlock: ContactBlockDictionary;
+  aboutBlock: AboutBlockDictionary;
 };

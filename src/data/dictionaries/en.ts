@@ -8,7 +8,7 @@ export const en: Dictionary = {
   },
 
   stackBlock: {
-    sentence: 'technologies and tools I use to build my projects',
+    sentence: 'Technologies and tools I use to build my projects',
     items: {
       html: 'HTML',
       css: 'CSS',
@@ -26,7 +26,27 @@ export const en: Dictionary = {
 
   contactBlock: {
     title: "Contact",
-    text: "if you'd like to talk about a project, a collaboration, or just say hello, you can reach me at:",
+    text: "If you'd like to talk about a project, a collaboration, or just say hello, you can reach me at:",
     email: "castelhanoc@gmail.com",
+  },
+
+  aboutBlock: {
+    title: "About",
+    name: "Caio Castelhano",
+
+    lead:
+      "I'm a full-stack developer, but my main focus is on front-end.",
+
+    supportingText:
+      "I enjoy building projects from the ground up, organizing the structure before writing code and thinking carefully about user experience, responsiveness and accessibility.",
+
+    paragraphOne:
+      "Today I mainly work with Ruby on Rails, JavaScript, React, Next.js and TypeScript. In my projects I usually handle the whole process: architecture, interface, deployment and domain setup.",
+
+    paragraphTwoPartOne:
+      "Before moving into tech, I spent over ten years working in communication and also studied film and philosophy. That background still influences how I think about narrative, structure and experience. I also work as a teacher and teaching assistant at",
+
+    paragraphTwoPartTwo:
+      "supporting students learning web development.",
   },
 };

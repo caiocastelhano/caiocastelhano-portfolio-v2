@@ -7,6 +7,7 @@ import { SpacerBlock } from "@/blocks/SpacerBlock";
 import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
 import { StackBlock } from "@/blocks/StackBlock";
 import { ContactBlock } from "@/blocks/ContactBlock";
+import { AboutBlock } from "@/blocks/AboutBlock";
 import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
 import { useI18n } from "@/components/i18n/I18nProvider";
 
@@ -33,6 +34,9 @@ export function HomepageBlocks() {
 
       case "contact":
         return <ContactBlock dictionary={dict.contactBlock} />;
+
+      case "about":
+        return <AboutBlock dictionary={dict.aboutBlock} />;
 
       default:
         return block.label ?? block.type;
