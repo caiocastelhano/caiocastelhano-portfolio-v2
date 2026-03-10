@@ -6,6 +6,7 @@ export const pt: Dictionary = {
     about: 'Sobre',
     contact: 'Contato',
   },
+
   stackBlock: {
     sentence: 'tecnologias e ferramentas que utilizo nos meus projetos',
     items: {
@@ -21,5 +22,11 @@ export const pt: Dictionary = {
       gitGithub: 'Git/GitHub',
       vscode: 'VSCode',
     },
+  },
+  
+  contactBlock: {
+    title: "Contato",
+    text: "se quiser conversar sobre um projeto, uma colaboração ou apenas trocar uma ideia, você pode me escrever em:",
+    email: "castelhanoc@gmail.com",
   },
 };
