@@ -1,5 +1,25 @@
-import type { Dictionary } from "./types";
+import type { Dictionary } from './types';
 
 export const pt: Dictionary = {
-  nav: { projects: "Projetos", about: "Sobre", contact: "Contato" },
+  nav: {
+    projects: 'Projetos',
+    about: 'Sobre',
+    contact: 'Contato',
+  },
+  stackBlock: {
+    sentence: 'tecnologias e ferramentas que utilizo nos meus projetos',
+    items: {
+      html: 'HTML',
+      css: 'CSS',
+      javascript: 'JavaScript',
+      rails: 'Ruby on Rails',
+      typescript: 'TypeScript',
+      figma: 'Figma',
+      nextjs: 'Next.js',
+      react: 'React',
+      sql: 'SQL',
+      gitGithub: 'Git/GitHub',
+      vscode: 'VSCode',
+    },
+  },
 };

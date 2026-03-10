@@ -3,16 +3,24 @@ import { BlockShell } from "@/components/ui/BlockShell";
 import { homeBlocks } from "@/data/blocks/homeBlocks";
 import { SpacerBlock } from "@/blocks/SpacerBlock";
 import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
-import type { HomeBlock } from "@/data/blocks/types";
+import { StackBlock } from "@/blocks/StackBlock";
 import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
 
+import { pt } from "@/data/dictionaries/pt";
+
+import type { HomeBlock } from "@/data/blocks/types";
 
 function renderBlock(block: HomeBlock) {
   switch (block.type) {
     case "social":
       return <SocialLinksBlock />;
+
     case "toggle":
       return <LanguageToggleBlock currentLanguage="pt" />;
+
+    case "stack":
+      return <StackBlock dictionary={pt.stackBlock} />;
+
     default:
       return block.label ?? block.type;
   }
