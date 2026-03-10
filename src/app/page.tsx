@@ -4,12 +4,15 @@ import { homeBlocks } from "@/data/blocks/homeBlocks";
 import { SpacerBlock } from "@/blocks/SpacerBlock";
 import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
 import type { HomeBlock } from "@/data/blocks/types";
+import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
+
 
 function renderBlock(block: HomeBlock) {
   switch (block.type) {
     case "social":
       return <SocialLinksBlock />;
-
+    case "toggle":
+      return <LanguageToggleBlock currentLanguage="pt" />;
     default:
       return block.label ?? block.type;
   }
