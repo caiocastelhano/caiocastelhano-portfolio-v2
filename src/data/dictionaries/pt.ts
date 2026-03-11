@@ -35,25 +35,27 @@ export const pt: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "Sou desenvolvedor full-stack, mas meu foco maior está no front-end.",
+      "Sou desenvolvedor full-stack, com foco especial em desenvolvimento front-end.",
 
     supportingText:
-      "Gosto de trabalhar construindo projetos desde o início, organizando bem a estrutura antes de começar a desenvolver e pensando com cuidado na experiência do usuário, na responsividade e na acessibilidade.",
+      "Gosto de trabalhar construindo projetos desde o início, organizando bem a estrutura antes de botar a mão no código e pensando com cuidado na experiência do usuário, na responsividade e na acessibilidade.",
 
     paragraphOne:
-      "Hoje trabalho principalmente com Ruby on Rails, JavaScript, React, Next.js e TypeScript. Nos projetos costumo cuidar de todo o processo: arquitetura, interface, deploy e configuração de domínio.",
+      "Hoje trabalho principalmente com Ruby on Rails, JavaScript, React, Next.js e TypeScript. Nos projetos costumo cuidar de todo o processo, da arquitetura à interface, passando pelo deploy e pela configuração de domínio.",
 
     paragraphTwoPartOne:
-      "Antes de migrar para tecnologia, trabalhei por mais de dez anos com comunicação e também estudei cinema e filosofia. Essa bagagem ainda influencia a forma como penso narrativa, estrutura e experiência. Hoje também atuo como professor e professor assistente na",
+      "Antes de migrar para tecnologia, trabalhei por mais de dez anos com comunicação e também estudei cinema e filosofia. Essa bagagem influencia a forma como penso e desenvolvo meus projetos, trazendo também uma dimensão mais artística para o meu trabalho. Também atuo como professor e professor assistente na",
 
     paragraphTwoPartTwo:
-      "apoiando alunos no aprendizado de desenvolvimento web.",
+      "apoiando alunos no processo de aprendizado de desenvolvimento web.",
   },
+
   projectTypes: {
-    freelancer: "Freelancer",
-    academic: "Projeto acadêmico",
+    freelancer: "Projeto freelancer",
+    academic: "Bootcamp · Le Wagon",
     personal: "Projeto pessoal",
   },
+
   projectCard: {
     openProjectAriaLabel: "Abrir projeto",
     technologiesAriaLabel: "Tecnologias utilizadas",

@@ -35,25 +35,27 @@ export const en: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "I'm a full-stack developer, but my main focus is on front-end.",
+      "I'm a full-stack developer with a strong focus on front-end development.",
 
     supportingText:
-      "I enjoy building projects from the ground up, organizing the structure before writing code and thinking carefully about user experience, responsiveness and accessibility.",
+      "I enjoy building projects from the ground up, organizing the structure well before writing any code and carefully considering user experience, responsiveness and accessibility.",
 
     paragraphOne:
-      "Today I mainly work with Ruby on Rails, JavaScript, React, Next.js and TypeScript. In my projects I usually handle the whole process: architecture, interface, deployment and domain setup.",
+      "Today I primarily work with Ruby on Rails, JavaScript, React, Next.js and TypeScript. In my projects I usually handle the full process, from architecture and interface development to deployment and domain configuration.",
 
     paragraphTwoPartOne:
-      "Before moving into tech, I spent over ten years working in communication and also studied film and philosophy. That background still influences how I think about narrative, structure and experience. I also work as a teacher and teaching assistant at",
+      "Before transitioning into tech, I worked for over ten years in communication and also studied film and philosophy. That background influences how I approach and build my projects, bringing a more artistic perspective to my work. I also work as a teacher and teaching assistant at",
 
     paragraphTwoPartTwo:
-      "supporting students learning web development.",
+      "supporting students as they learn web development.",
   },
+
   projectTypes: {
-    freelancer: "Freelancer",
-    academic: "Academic project",
+    freelancer: "Freelance project",
+    academic: "Bootcamp · Le Wagon",
     personal: "Personal project",
   },
+
   projectCard: {
     openProjectAriaLabel: "Open project",
     technologiesAriaLabel: "Technologies used",
