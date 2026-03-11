@@ -4,6 +4,13 @@ import type { Locale } from "@/data/dictionaries/types";
 import { I18nProvider } from "@/components/i18n/I18nProvider";
 import { Manrope } from "next/font/google";
 
+export const metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
 function getLocale(raw?: string): Locale {
   return raw === "en" ? "en" : "pt";
 }
