@@ -60,4 +60,10 @@ export const en: Dictionary = {
     openProjectAriaLabel: "Open project",
     technologiesAriaLabel: "Technologies used",
   },
+
+  languageToggle: {
+    selectorAriaLabel: "Language selector",
+    portugueseAriaLabel: "Change language to Portuguese",
+    englishAriaLabel: "Change language to English"
+  },
 };

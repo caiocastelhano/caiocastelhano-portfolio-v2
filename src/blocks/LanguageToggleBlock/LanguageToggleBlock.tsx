@@ -1,4 +1,5 @@
 import styles from "./LanguageToggleBlock.module.css";
+import { useI18n } from "@/components/i18n/I18nProvider";
 
 type Language = "en" | "pt";
 
@@ -11,12 +12,13 @@ export function LanguageToggleBlock({
   currentLanguage,
   onLanguageChange,
 }: LanguageToggleBlockProps) {
+  const { dict } = useI18n();
   return (
     <div className={styles.container}>
       <div
         className={styles.toggle}
         role="group"
-        aria-label="Language selector"
+        aria-label={dict.languageToggle.selectorAriaLabel}
       >
         <button
           type="button"
@@ -24,6 +26,7 @@ export function LanguageToggleBlock({
             currentLanguage === "pt" ? styles.active : ""
           }`}
           aria-pressed={currentLanguage === "pt"}
+          aria-label={dict.languageToggle.portugueseAriaLabel}
           onClick={() => onLanguageChange("pt")}
         >
           PT
@@ -35,6 +38,7 @@ export function LanguageToggleBlock({
             currentLanguage === "en" ? styles.active : ""
           }`}
           aria-pressed={currentLanguage === "en"}
+          aria-label={dict.languageToggle.englishAriaLabel}
           onClick={() => onLanguageChange("en")}
         >
           EN
