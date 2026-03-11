@@ -10,6 +10,7 @@ import { ContactBlock } from "@/blocks/ContactBlock";
 import { AboutBlock } from "@/blocks/AboutBlock";
 import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
 import { useI18n } from "@/components/i18n/I18nProvider";
+import { projects } from "@/data/blocks/projects";
 
 import type { HomeBlock } from "@/data/blocks/types";
 
@@ -38,8 +39,18 @@ export function HomepageBlocks() {
       case "about":
         return <AboutBlock dictionary={dict.aboutBlock} />;
 
+      case "project": {
+        const project = projects.find(
+          (item) => item.slug === block.projectSlug
+        );
+
+        if (!project) return null;
+
+        return <div>{project.title[locale]}</div>;
+      }
+
       default:
-        return block.label ?? block.type;
+        return null;
     }
   }
 
