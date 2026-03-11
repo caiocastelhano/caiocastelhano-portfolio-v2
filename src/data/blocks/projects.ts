@@ -94,6 +94,6 @@ export const projects: Project[] = [
     stackTags: ["React", "JavaScript", "CSS Modules", "Vercel"],
     projectType: "personal",
     liveUrl: "https://portfolio-mu-wine-13.vercel.app",
-    backgroundImage: "/assets/projects/portfolio-v1.jpg",
+    backgroundImage: "/assets/projects/portfolio.jpg",
   },
 ];

@@ -11,6 +11,7 @@ import { AboutBlock } from "@/blocks/AboutBlock";
 import { LanguageToggleBlock } from "@/blocks/LanguageToggleBlock";
 import { useI18n } from "@/components/i18n/I18nProvider";
 import { projects } from "@/data/blocks/projects";
+import { ProjectBlock } from "@/blocks/ProjectBlock";
 
 import type { HomeBlock } from "@/data/blocks/types";
 
@@ -46,7 +47,7 @@ export function HomepageBlocks() {
 
         if (!project) return null;
 
-        return <div>{project.title[locale]}</div>;
+        return <ProjectBlock project={project} locale={locale} />;
       }
 
       default:
