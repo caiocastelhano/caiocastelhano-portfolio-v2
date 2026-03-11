@@ -12,6 +12,7 @@
   color: inherit;
   text-decoration: none;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .background {
@@ -25,12 +26,23 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.82) 0%,
-    rgba(0, 0, 0, 0.45) 45%,
-    rgba(0, 0, 0, 0.18) 100%
-  );
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.92) 0%,
+      rgba(0,0,0,0.75) 25%,
+      rgba(0,0,0,0.45) 50%,
+      rgba(0,0,0,0.15) 75%,
+      rgba(0,0,0,0) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0.35) 0%,
+      rgba(0,0,0,0) 30%,
+      rgba(0,0,0,0) 70%,
+      rgba(0,0,0,0.35) 100%
+    );
+  transition: background 180ms ease;
 }
 
 .content {
@@ -40,8 +52,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 18px;
+  gap: 12px;
+  padding: 22px;
   color: #fff;
 }
 
@@ -49,30 +61,33 @@
   margin: 0;
   font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  opacity: 0.9;
+  opacity: 0.88;
 }
 
 .title {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.08;
+  max-width: 14ch;
+  text-wrap: balance;
 }
 
 .description {
   margin: 0;
   font-size: 0.95rem;
-  line-height: 1.45;
-  max-width: 42ch;
+  line-height: 1.5;
+  max-width: 40ch;
+  opacity: 0.96;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 4px 0 0 0;
+  margin: 6px 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -80,8 +95,39 @@
 .tag {
   padding: 6px 10px;
   font-size: 0.72rem;
+  font-weight: 500;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(6px);
+}
+
+.link:hover .overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.96) 0%,
+      rgba(0,0,0,0.82) 25%,
+      rgba(0,0,0,0.55) 50%,
+      rgba(0,0,0,0.2) 75%,
+      rgba(0,0,0,0) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0.4) 0%,
+      rgba(0,0,0,0) 30%,
+      rgba(0,0,0,0) 70%,
+      rgba(0,0,0,0.4) 100%
+    );
+}
+
+.link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay {
+    transition: none;
+  }
 }
