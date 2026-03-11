@@ -11,6 +11,23 @@ export type ColSpan = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
 export type RowSpan = 1 | 2 | 3 | 4 | 5 | 6;
 export type SpacerVariant = "a" | "b";
 
+export type LocalizedText = {
+  pt: string;
+  en: string;
+};
+
+export type ProjectType = "freelancer" | "academic" | "personal";
+
+export type Project = {
+  slug: string;
+  title: LocalizedText;
+  description: LocalizedText;
+  stackTags: string[];
+  projectType: ProjectType;
+  liveUrl: string;
+  backgroundImage: string;
+};
+
 type BaseBlock = {
   id: string;
   colSpan: ColSpan;
@@ -24,7 +41,6 @@ type AboutBlock = BaseBlock & {
 
 type ProjectBlock = BaseBlock & {
   type: "project";
-  label: string;
   projectSlug: string;
 };
 
