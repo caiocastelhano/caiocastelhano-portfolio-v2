@@ -1,13 +1,14 @@
 import styles from "./ProjectCard.module.css";
 import type { Project } from "@/data/blocks/types";
-import type { Locale } from "@/data/dictionaries/types";
+import type { Dictionary, Locale } from "@/data/dictionaries/types";
 
 type ProjectCardProps = {
   project: Project;
   locale: Locale;
+  dict: Dictionary;
 };
 
-export function ProjectCard({ project, locale }: ProjectCardProps) {
+export function ProjectCard({ project, locale, dict }: ProjectCardProps) {
   return (
     <article className={styles.card}>
       <a
@@ -15,7 +16,7 @@ export function ProjectCard({ project, locale }: ProjectCardProps) {
         target="_blank"
         rel="noreferrer"
         className={styles.link}
-        aria-label={`Open project ${project.title[locale]}`}
+        aria-label={`${dict.projectCard.openProjectAriaLabel} ${project.title[locale]}`}
       >
         <div
           className={styles.background}
@@ -26,7 +27,9 @@ export function ProjectCard({ project, locale }: ProjectCardProps) {
         <div className={styles.overlay} />
 
         <div className={styles.content}>
-          <p className={styles.projectType}>{project.projectType}</p>
+          <p className={styles.projectType}>
+            {dict.projectTypes[project.projectType]}
+          </p>
 
           <h2 className={styles.title}>{project.title[locale]}</h2>
 
@@ -34,7 +37,10 @@ export function ProjectCard({ project, locale }: ProjectCardProps) {
             {project.description[locale]}
           </p>
 
-          <ul className={styles.tags} aria-label="Technologies used">
+          <ul
+            className={styles.tags}
+            aria-label={dict.projectCard.technologiesAriaLabel}
+          >
             {project.stackTags.map((tag) => (
               <li key={tag} className={styles.tag}>
                 {tag}

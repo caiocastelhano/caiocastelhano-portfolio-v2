@@ -1,5 +1,7 @@
 export type Locale = "pt" | "en";
 
+export type ProjectType = "freelancer" | "academic" | "personal";
+
 export type StackItemId =
   | "html"
   | "css"
@@ -43,4 +45,9 @@ export type Dictionary = {
   stackBlock: StackBlockDictionary;
   contactBlock: ContactBlockDictionary;
   aboutBlock: AboutBlockDictionary;
+  projectTypes: Record<ProjectType, string>;
+  projectCard: {
+    openProjectAriaLabel: string;
+    technologiesAriaLabel: string;
+  };
 };

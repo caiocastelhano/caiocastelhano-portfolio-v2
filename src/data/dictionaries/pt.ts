@@ -49,4 +49,13 @@ export const pt: Dictionary = {
     paragraphTwoPartTwo:
       "apoiando alunos no aprendizado de desenvolvimento web.",
   },
+  projectTypes: {
+    freelancer: "Freelancer",
+    academic: "Projeto acadêmico",
+    personal: "Projeto pessoal",
+  },
+  projectCard: {
+    openProjectAriaLabel: "Abrir projeto",
+    technologiesAriaLabel: "Tecnologias utilizadas",
+  },
 };

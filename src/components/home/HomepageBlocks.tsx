@@ -47,7 +47,7 @@ export function HomepageBlocks() {
 
         if (!project) return null;
 
-        return <ProjectBlock project={project} locale={locale} />;
+        return <ProjectBlock project={project} locale={locale} dict={dict} />;
       }
 
       default:
