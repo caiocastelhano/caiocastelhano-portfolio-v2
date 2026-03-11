@@ -50,4 +50,9 @@ export type Dictionary = {
     openProjectAriaLabel: string;
     technologiesAriaLabel: string;
   };
+  languageToggle: {
+    selectorAriaLabel: string;
+    portugueseAriaLabel: string;
+    englishAriaLabel: string;
+  };
 };
