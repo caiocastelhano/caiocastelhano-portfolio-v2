@@ -2,7 +2,7 @@
 
 import { Grid, GridItem } from "@/components/ui/Grid";
 import { BlockShell } from "@/components/ui/BlockShell";
-import { homeBlocksDesktop } from "@/data/blocks/homeBlocksDesktop";
+import { homeBlocksMobile } from "@/data/blocks/homeBlocksMobile";
 import { SpacerBlock } from "@/blocks/SpacerBlock";
 import { SocialLinksBlock } from "@/blocks/SocialLinksBlock";
 import { StackBlock } from "@/blocks/StackBlock";
@@ -57,7 +57,7 @@ export function HomepageBlocks() {
 
   return (
     <Grid bleed aria-label="Homepage grid">
-      {homeBlocksDesktop.map((block) => (
+      {homeBlocksMobile.map((block) => (
         <GridItem key={block.id} colSpan={block.colSpan} rowSpan={block.rowSpan}>
           {block.type === "spacer" ? (
             <SpacerBlock variant={block.variant} />
