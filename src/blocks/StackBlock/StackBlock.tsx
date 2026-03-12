@@ -60,12 +60,9 @@ export function StackBlock({ dictionary }: StackBlockProps) {
 
           return (
             <li key={itemId} className={styles.listItem}>
-              <div
-                className={styles.stackItem}
-                aria-label={label}
-                title={label}
-              >
+              <div className={styles.stackItem} title={label}>
                 <Icon aria-hidden="true" className={styles.icon} />
+                <span className={styles.visuallyHidden}>{label}</span>
               </div>
             </li>
           );
