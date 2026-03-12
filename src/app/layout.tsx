@@ -6,7 +6,7 @@ import { I18nProvider } from "@/components/i18n/I18nProvider";
 import { Manrope } from "next/font/google";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://caiocastelhano-portfolio-v2.vercel.app"),
+  metadataBase: new URL("https://caiocastelhano.com.br"),
 
   title: "Caio Castelhano | Desenvolvedor Full-Stack",
 
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
   },
 
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
