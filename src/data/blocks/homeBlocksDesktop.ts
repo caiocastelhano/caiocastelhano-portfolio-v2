@@ -1,6 +1,6 @@
 import type { HomeBlock } from "./types";
 
-export const homeBlocks: HomeBlock[] = [
+export const homeBlocksDesktop: HomeBlock[] = [
   { id: "about", type: "about", colSpan: 6, rowSpan: 3, label: "about" },
 
   { id: "sp-top-right-gap", type: "spacer", colSpan: 5, rowSpan: 1, variant: "b" }, 
