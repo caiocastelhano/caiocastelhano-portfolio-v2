@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Caio Castelhano – Portfolio Website (v2)
 
-## Getting Started
+This is the source code for the second version of my personal portfolio website.  
+It showcases my work as a full-stack developer, highlighting real-world projects developed for clients and personal applications built with modern web technologies.
 
-First, run the development server:
+The goal of this version was to redesign the portfolio with a **more modular architecture, improved performance, accessibility best practices, and multilingual support**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔍 Visit
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 https://caiocastelhano.com.br
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧭 Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Home
 
-## Learn More
+A modular grid-based homepage designed to present my work and professional profile through independent UI blocks.
 
-To learn more about Next.js, take a look at the following resources:
+The homepage includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+About: A brief introduction to my background, career transition, and development philosophy.  
+Projects: A curated selection of projects including freelance work and applications developed during and after the Le Wagon bootcamp.  
+Stack: Overview of the main technologies I work with.  
+Social links: Direct access to GitHub, LinkedIn and other platforms.  
+Contact: Quick access to email for collaboration or freelance inquiries.  
+Language toggle: Interface for switching between Portuguese and English.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Each section is implemented as an independent **block component**, allowing flexible layout composition and easier scalability.
 
-## Deploy on Vercel
+## Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The portfolio highlights several projects including:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Museu Autobiográfico – cultural digital platform combining memory, territory and artistic expression.  
+Gisele Sartini – audiovisual portfolio website for a Brazilian video editor.  
+Renata Lage Psicóloga – multilingual website presenting clinical practice and contact information.  
+Fabio Montanari – official website of a Brazilian filmmaker and educator.  
+GigGoers – web application for discovering and sharing live music events.  
+
+## 🌐 Features
+
+- **Multilingual support** (Portuguese and English)
+- **Responsive grid layout** for desktop, tablet, and mobile
+- **Modular block-based architecture**
+- **Clean and minimal visual identity**
+- Language system powered by **dictionaries and cookies**
+- **Accessible semantic HTML structure**
+- **SEO-friendly metadata**
+- **Image optimization and performance improvements**
+- **Continuous deployment** via Vercel
+
+## 🛠️ Technologies Used
+
+- [Next.js](https://nextjs.org/) (App Router)  
+- React  
+- JavaScript  
+- CSS Modules  
+- [Vercel](https://vercel.com/) – production hosting  
+- Git / GitHub – version control
+
+## 📱 Responsiveness
+
+The entire interface was designed to provide a consistent experience across different screen sizes, with careful attention to layout, typography, and spacing.
+
+## 🔁 Previous Version
+
+The first version of the portfolio can be accessed here:
+
+🌐 https://v1.caiocastelhano.com.br  
+
+## ✅ Status
+
+The website is currently **active**.
+
+## 👨‍💻 Developer
+
+Developed by [Caio Castelhano](https://caiocastelhano.com.br/) – full-stack developer based in Brazil.
+
+**For freelance inquiries, collaborations, or feedback, feel free to get in touch.**
