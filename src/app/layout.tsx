@@ -1,10 +1,18 @@
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { cookies } from "next/headers";
 import type { Locale } from "@/data/dictionaries/types";
 import { I18nProvider } from "@/components/i18n/I18nProvider";
 import { Manrope } from "next/font/google";
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://caiocastelhano-portfolio-v2.vercel.app"),
+  title: "Caio Castelhano | Desenvolvedor Full-Stack",
+  description:
+    "Portfólio de Caio Castelhano, desenvolvedor full-stack com experiência em React, Next.js e Ruby on Rails, com foco em performance, acessibilidade e aplicações web modernas.",
+  alternates: {
+    canonical: "/",
+  },
   robots: {
     index: false,
     follow: false,
