@@ -8,6 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://caiocastelhano-portfolio-v2.vercel.app/sitemap.xml",
+    sitemap: "https://caiocastelhano.com.br/sitemap.xml",
+    host: "https://caiocastelhano.com.br",
   };
 }
