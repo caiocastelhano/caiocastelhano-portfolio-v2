@@ -39,6 +39,14 @@ export const metadata: Metadata = {
     type: "website",
   },
 
+  twitter: {
+    card: "summary_large_image",
+    title: "Caio Castelhano | Desenvolvedor Full-Stack",
+    description:
+      "Portfólio de Caio Castelhano, desenvolvedor full-stack com experiência em React, Next.js e Ruby on Rails.",
+    images: ["/assets/og-image.png"],
+  },
+
   robots: {
     index: false,
     follow: false,
