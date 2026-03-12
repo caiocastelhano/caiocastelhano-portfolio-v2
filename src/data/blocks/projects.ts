@@ -14,7 +14,7 @@ export const projects: Project[] = [
     stackTags: ["Next.js", "React", "CSS Modules", "JavaScript", "Vercel"],
     projectType: "freelancer",
     liveUrl: "https://www.museuautobiografico.org/",
-    backgroundImage: "/assets/projects/museu.jpg",
+    backgroundImage: "/assets/projects/museu.webp",
   },
 
   {
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     stackTags: ["Next.js", "React", "CSS Modules", "JavaScript", "Vercel"],
     projectType: "freelancer",
     liveUrl: "https://www.giselesartini.com/",
-    backgroundImage: "/assets/projects/gisele.jpg",
+    backgroundImage: "/assets/projects/gisele.webp",
   },
 
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     stackTags: ["Next.js", "React", "CSS Modules", "JavaScript", "Vercel"],
     projectType: "freelancer",
     liveUrl: "https://www.renatalagepsicologa.com.br/",
-    backgroundImage: "/assets/projects/renata.jpeg",
+    backgroundImage: "/assets/projects/renata.webp",
   },
 
   {
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     stackTags: ["Ruby on Rails", "JavaScript", "HTML", "SCSS", "Dockerfile", "Heroku", "Mobile-first"],
     projectType: "academic",
     liveUrl: "https://giggoers-f8d886acbf20.herokuapp.com/",
-    backgroundImage: "/assets/projects/giggoers.jpg",
+    backgroundImage: "/assets/projects/giggoers.webp",
   },
 
   {
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     stackTags: ["Next.js", "React", "CSS Modules", "JavaScript", "Vercel"],
     projectType: "freelancer",
     liveUrl: "https://fabiomontanari.com/",
-    backgroundImage: "/assets/projects/montanari.jpg",
+    backgroundImage: "/assets/projects/montanari.webp",
   },
 
   {
@@ -94,6 +94,6 @@ export const projects: Project[] = [
     stackTags: ["React", "JavaScript", "CSS Modules", "Vercel"],
     projectType: "personal",
     liveUrl: "https://v1.caiocastelhano.com.br/",
-    backgroundImage: "/assets/projects/portfolio.jpg",
+    backgroundImage: "/assets/projects/portfolio.webp",
   },
 ];
