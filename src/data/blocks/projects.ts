@@ -93,7 +93,7 @@ export const projects: Project[] = [
     },
     stackTags: ["React", "JavaScript", "CSS Modules", "Vercel"],
     projectType: "personal",
-    liveUrl: "https://portfolio-mu-wine-13.vercel.app",
+    liveUrl: "https://v1.caiocastelhano.com.br/",
     backgroundImage: "/assets/projects/portfolio.jpg",
   },
 ];
