@@ -26,6 +26,10 @@ export type ContactBlockDictionary = {
   email: string;
 };
 
+export type SocialLinksBlockDictionary = {
+  footerText: string;
+};
+
 export type AboutBlockDictionary = {
   title: string;
   name: string;
@@ -44,6 +48,7 @@ export type Dictionary = {
   };
   stackBlock: StackBlockDictionary;
   contactBlock: ContactBlockDictionary;
+  socialLinksBlock: SocialLinksBlockDictionary;
   aboutBlock: AboutBlockDictionary;
   projectTypes: Record<ProjectType, string>;
   projectCard: {

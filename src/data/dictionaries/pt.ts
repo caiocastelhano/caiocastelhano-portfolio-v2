@@ -30,6 +30,11 @@ export const pt: Dictionary = {
     email: "castelhanoc@gmail.com",
   },
 
+  socialLinksBlock: {
+    footerText:
+      "© 2026 Caio Castelhano — Desenvolvido por mim. Todos os direitos reservados.",
+  },
+
   aboutBlock: {
     title: "Sobre",
     name: "Caio Castelhano",

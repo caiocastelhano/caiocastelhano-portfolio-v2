@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import styles from "./SocialLinksBlock.module.css";
+import { useI18n } from "@/components/i18n/I18nProvider";
 
 import {
   FaLinkedinIn,
@@ -44,6 +45,7 @@ const socialLinks: SocialLink[] = [
 ];
 
 export function SocialLinksBlock() {
+  const { dict } = useI18n();
   return (
     <nav className={styles.container} aria-label="Social links">
       <ul className={styles.list}>
@@ -61,6 +63,9 @@ export function SocialLinksBlock() {
           </li>
         ))}
       </ul>
+      <p className={styles.footerText}>
+        {dict.socialLinksBlock.footerText}
+      </p>
     </nav>
   );
 }
