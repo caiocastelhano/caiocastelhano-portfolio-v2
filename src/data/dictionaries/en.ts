@@ -36,24 +36,24 @@ export const en: Dictionary = {
   },
 
   aboutBlock: {
-    title: "About",
-    name: "Caio Castelhano",
+  title: "About",
+  name: "Caio Castelhano",
 
-    lead:
-      "I'm a full-stack developer with a strong focus on front-end development.",
+  lead:
+    "Full-stack developer focused on Ruby on Rails and web product development.",
 
-    supportingText:
-      "I enjoy building projects from the ground up, organizing the structure well before writing any code and carefully considering user experience, responsiveness and accessibility.",
+  supportingText:
+    "I primarily work on building complete web applications, from product conception and architecture to development, deployment, and ongoing maintenance.",
 
-    paragraphOne:
-      "Today I primarily work with Ruby on Rails, JavaScript, React, Next.js and TypeScript. In my projects I usually handle the full process, from architecture and interface development to deployment and domain configuration.",
+  paragraphOne:
+    "I work with Ruby on Rails, PostgreSQL, JavaScript, React, and Next.js. In my projects, I usually take ownership of the entire development lifecycle, including data modeling, feature implementation, user experience, accessibility, and infrastructure.",
 
-    paragraphTwoPartOne:
-      "Before transitioning into tech, I worked for over ten years in communication and also studied film and philosophy. That background influences how I approach and build my projects, bringing a more artistic perspective to my work. I also work as a teacher and teaching assistant at",
+  paragraphTwoPartOne:
+    "Before transitioning into technology, I spent more than ten years working in communications. I also have a background in Philosophy and Film Direction, experiences that continue to influence how I think about products, storytelling, design, and problem-solving. I currently work as a Teacher and Teacher Assistant at",
 
-    paragraphTwoPartTwo:
-      "supporting students as they learn web development.",
-  },
+  paragraphTwoPartTwo:
+    "supporting students throughout their learning journey while continuing to strengthen my own technical and mentoring skills.",
+},
 
   projectTypes: {
     freelancer: "Freelance project",

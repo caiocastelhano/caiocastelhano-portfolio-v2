@@ -26,6 +26,8 @@ export type Project = {
   projectType: ProjectType;
   liveUrl: string;
   backgroundImage: string;
+  mobileBackgroundImage?: string;
+  tabletBackgroundImage?: string;
 };
 
 type BaseBlock = {

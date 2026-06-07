@@ -20,7 +20,13 @@ export function ProjectCard({ project, locale, dict }: ProjectCardProps) {
       >
         <div
           className={styles.background}
-          style={{ backgroundImage: `url(${project.backgroundImage})` }}
+          style={
+            {
+              backgroundImage: `url(${project.backgroundImage})`,
+              "--tablet-background-image": `url(${project.tabletBackgroundImage ?? project.backgroundImage})`,
+              "--mobile-background-image": `url(${project.mobileBackgroundImage ?? project.backgroundImage})`,
+            } as React.CSSProperties
+          }
           aria-hidden="true"
         />
 

@@ -11,6 +11,8 @@ export const homeBlocksTablet: HomeBlock[] = [
 
   { id: "sp-left-empty-row", type: "spacer", colSpan: 8, rowSpan: 1, variant: "a" },
 
+  { id: "straks", type: "project", colSpan: 8, rowSpan: 4, projectSlug: "straks" },
+
   { id: "stack", type: "stack", colSpan: 8, rowSpan: 1, label: "stack" },
 
   { id: "gisele", type: "project", colSpan: 3, rowSpan: 2, projectSlug: "gisele-sartini" },
