@@ -27,21 +27,6 @@ const socialLinks: SocialLink[] = [
     href: "https://github.com/caiocastelhano",
     icon: <FaGithub aria-hidden="true" />,
   },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/caiocastelhano",
-    icon: <FaInstagram aria-hidden="true" />,
-  },
-  {
-    label: "Vimeo",
-    href: "https://vimeo.com/caiocastelhano",
-    icon: <FaVimeoV aria-hidden="true" />,
-  },
-  {
-    label: "Letterboxd",
-    href: "https://letterboxd.com/caiocastelhano/",
-    icon: <SiLetterboxd aria-hidden="true" />,
-  },
 ];
 
 export function SocialLinksBlock() {
