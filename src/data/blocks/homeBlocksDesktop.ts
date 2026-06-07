@@ -11,6 +11,8 @@ export const homeBlocksDesktop: HomeBlock[] = [
 
   { id: "sp-left-empty-row", type: "spacer", colSpan: 6, rowSpan: 1, variant: "a" }, 
 
+  { id: "straks", type: "project", colSpan: 12, rowSpan: 4, projectSlug: "straks" },
+
   { id: "stack", type: "stack", colSpan: 6, rowSpan: 1, label: "stack" },
 
   { id: "sp-stack-right", type: "spacer", colSpan: 6, rowSpan: 1, variant: "b" }, 

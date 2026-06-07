@@ -40,19 +40,19 @@ export const pt: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "Sou desenvolvedor full-stack, com foco especial em desenvolvimento front-end.",
+      "Desenvolvedor full-stack com foco em Ruby on Rails e desenvolvimento de produtos web.",
 
     supportingText:
-      "Gosto de trabalhar construindo projetos desde o início, organizando bem a estrutura antes de botar a mão no código e pensando com cuidado na experiência do usuário, na responsividade e na acessibilidade.",
+      "Atuo principalmente na construção de aplicações completas, da concepção do produto e arquitetura até o desenvolvimento, deploy e manutenção.",
 
     paragraphOne:
-      "Hoje trabalho principalmente com Ruby on Rails, JavaScript, React, Next.js e TypeScript. Nos projetos costumo cuidar de todo o processo, da arquitetura à interface, passando pelo deploy e pela configuração de domínio.",
+      "Trabalho com Ruby on Rails, PostgreSQL, JavaScript, React e Next.js. Nos projetos, costumo assumir todo o ciclo de desenvolvimento, incluindo modelagem de dados, implementação de funcionalidades, experiência do usuário, acessibilidade e infraestrutura.",
 
     paragraphTwoPartOne:
-      "Antes de migrar para tecnologia, trabalhei por mais de dez anos com comunicação e também estudei cinema e filosofia. Essa bagagem influencia a forma como penso e desenvolvo meus projetos, trazendo também uma dimensão mais artística para o meu trabalho. Também atuo como professor e professor assistente na",
+      "Antes de migrar para tecnologia, trabalhei por mais de dez anos com comunicação. Também tenho bagagem em Filosofia e Direção Cinematográfica, experiências que influenciam a forma como penso produtos, narrativa, design e resolução de problemas. Atualmente, também atuo como professor e professor assistente na",
 
     paragraphTwoPartTwo:
-      "apoiando alunos no processo de aprendizado de desenvolvimento web.",
+      "apoiando alunos em seu processo de aprendizado, enquanto continuo aprimorando minhas habilidades técnicas e de mentoria.",
   },
 
   projectTypes: {

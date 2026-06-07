@@ -2,6 +2,24 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
+    slug: "straks",
+    title: {
+      pt: "STRAKS",
+      en: "STRAKS",
+    },
+    description: {
+      pt: "Progressive Web App criado para organizar shows comprados com meses de antecedência. O STRAKS permite gerenciar próximos eventos, registrar informações de ingressos, manter um histórico de apresentações e receber lembretes automáticos antes de datas importantes. Desenvolvimento completo do produto, da concepção ao deploy.",
+      en: "Progressive Web App created to help concertgoers organize events purchased months in advance. STRAKS allows users to manage upcoming shows, store ticket information, maintain a personal concert history, and receive automated reminders before important dates. Full product development, from concept to deployment.",
+    },
+    stackTags: ["Ruby on Rails", "PostgreSQL", "Hotwire", "Devise", "Web Push API", "PWA", "Render"],
+    projectType: "personal",
+    liveUrl: "https://www.straks.app/",
+    backgroundImage: "/assets/projects/straks.webp",
+    mobileBackgroundImage: "/assets/projects/straks-mobile.webp",
+    tabletBackgroundImage: "/assets/projects/straks-tablet.webp",
+  },
+
+  {
     slug: "museu-autobiografico",
     title: {
       pt: "Museu Autobiográfico",

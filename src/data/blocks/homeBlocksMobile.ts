@@ -12,6 +12,8 @@ export const homeBlocksMobile: HomeBlock[] = [
 
   { id: "stack", type: "stack", colSpan: 4, rowSpan: 2, label: "stack" },
 
+  { id: "straks", type: "project", colSpan: 4, rowSpan: 3, projectSlug: "straks" },
+
   { id: "museu", type: "project", colSpan: 4, rowSpan: 3, projectSlug: "museu-autobiografico" },
 
   { id: "gisele", type: "project", colSpan: 4, rowSpan: 2, projectSlug: "gisele-sartini" },
