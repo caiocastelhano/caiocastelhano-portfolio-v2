@@ -63,7 +63,7 @@ export const projects: Project[] = [
     },
     stackTags: ["Next.js", "React", "CSS Modules", "JavaScript", "Vercel"],
     projectType: "freelancer",
-    liveUrl: "https://www.renatalagepsicologa.com.br/",
+    liveUrl: "https://renatalagepsicologa.vercel.app/",
     backgroundImage: "/assets/projects/renata.webp",
   },
 
