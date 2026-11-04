@@ -21,7 +21,7 @@ export const homeBlocksTablet: HomeBlock[] = [
 
   { id: "renata", type: "project", colSpan: 4, rowSpan: 2, projectSlug: "renata-lage" },
 
-  { id: "giggoers", type: "project", colSpan: 3, rowSpan: 2, projectSlug: "giggoers" },
+  { id: "giggoers", type: "spacer", colSpan: 3, rowSpan: 2, variant: "b" },
 
   { id: "sp-before-fabio", type: "spacer", colSpan: 1, rowSpan: 2, variant: "b" },
 

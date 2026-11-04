@@ -27,7 +27,7 @@ export const homeBlocksDesktop: HomeBlock[] = [
 
   { id: "sp-renata-right", type: "spacer", colSpan: 2, rowSpan: 2, variant: "a" }, 
 
-  { id: "giggoers", type: "project", colSpan: 3, rowSpan: 2, projectSlug: "giggoers" },
+  { id: "giggoers", type: "spacer", colSpan: 3, rowSpan: 2, variant: "b" },
 
   { id: "sp-before-fabio", type: "spacer", colSpan: 5, rowSpan: 2, variant: "b" }, 
 

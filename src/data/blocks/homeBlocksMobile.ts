@@ -24,8 +24,6 @@ export const homeBlocksMobile: HomeBlock[] = [
 
   { id: "portv1", type: "project", colSpan: 4, rowSpan: 2, projectSlug: "portfolio-v1" },
 
-  { id: "giggoers", type: "project", colSpan: 4, rowSpan: 2, projectSlug: "giggoers" },
-
   { id: "sp-before-contact", type: "spacer", colSpan: 4, rowSpan: 1, variant: "a" },
 
   { id: "contact", type: "contact", colSpan: 4, rowSpan: 2, label: "contact" },
