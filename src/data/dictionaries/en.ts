@@ -40,16 +40,16 @@ export const en: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "Full-stack developer focused on Ruby on Rails and Next.js, with a product of my own in production and websites delivered to clients.",
+      "Full-stack developer focused on Ruby on Rails, with front-end experience in React and Next.js, a product of my own in production, and websites delivered to clients.",
 
     supportingText:
-      "I build complete web applications, from product conception and architecture to development, deployment, and maintenance.",
+      "I build complete applications, from conception and architecture to development, deployment, and maintenance.",
 
     paragraphOne:
-      "I work with Ruby on Rails, PostgreSQL, JavaScript, React, and Next.js. I develop and maintain STRAKS, a Rails platform for organizing concerts. I have also built five client websites from scratch in Next.js, handling visual identity, deployment, and domain setup. In my projects, I take on the full cycle: data modeling, features, user experience, accessibility, and infrastructure.",
+      "I currently work as a freelancer, study Systems Analysis and Development at Estácio, and continue building new features for STRAKS, a concert management platform that I conceived and developed.",
 
     paragraphTwoPartOne:
-      "Before programming, I spent more than ten years working in social media, as an editor and social media manager. I also have a background in Philosophy and Film Direction, which shapes how I think about products, storytelling, and problem-solving. I am currently studying Systems Analysis and Development (ADS) at Estácio and work as a Teacher and Teacher Assistant in the AI Software Bootcamp at",
+      "Before programming, I spent more than ten years working in social media. My background in Philosophy and Film Direction shapes how I think about products, storytelling, and problem-solving. I am also a Teacher and Teacher Assistant in the AI Software Bootcamp at",
 
     paragraphTwoPartTwo:
       "supporting students in debugging, code review, and projects, which also strengthens my own technical foundation.",

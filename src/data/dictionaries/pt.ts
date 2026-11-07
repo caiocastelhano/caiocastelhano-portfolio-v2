@@ -40,16 +40,16 @@ export const pt: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "Desenvolvedor full-stack com foco em Ruby on Rails e Next.js, com produto próprio em produção e sites entregues para clientes.",
+      "Desenvolvedor full-stack com foco em Ruby on Rails e experiência em front-end com React e Next.js, com produto próprio em produção e sites entregues para clientes.",
 
     supportingText:
       "Construo aplicações completas, da concepção e arquitetura até o desenvolvimento, deploy e manutenção.",
 
     paragraphOne:
-      "Trabalho com Ruby on Rails, PostgreSQL, JavaScript, React e Next.js. Desenvolvo e mantenho o STRAKS, plataforma em Rails para organização de shows. Também criei do zero cinco sites para clientes em Next.js, cuidando da identidade visual, do deploy e da configuração de domínio. Nos projetos, assumo o ciclo completo: modelagem de dados, funcionalidades, experiência do usuário, acessibilidade e infraestrutura.",
+      "Atualmente, atuo como freelancer, curso Análise e Desenvolvimento de Sistemas na Estácio e sigo desenvolvendo novas funcionalidades para o STRAKS, plataforma para gerenciamento de shows que idealizei e desenvolvi.",
 
     paragraphTwoPartOne:
-      "Antes de programar, trabalhei por mais de dez anos com redes sociais, como editor e gerente de mídias sociais. Também tenho formação em Filosofia e Direção Cinematográfica, que influenciam a forma como penso produtos, narrativa e resolução de problemas. Estou cursando Análise e Desenvolvimento de Sistemas na Estácio e atuo como Teacher e Teacher Assistant no AI Software Bootcamp do",
+      "Antes de programar, trabalhei por mais de dez anos com redes sociais. Minha formação em Filosofia e Direção Cinematográfica influencia a forma como penso produtos, narrativa e resolução de problemas. Também sou Teacher e Teacher Assistant no AI Software Bootcamp do",
 
     paragraphTwoPartTwo:
       "acompanhando alunos em debugging, revisão de código e projetos, o que também fortalece minha própria base técnica.",
