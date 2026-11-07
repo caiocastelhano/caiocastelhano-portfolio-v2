@@ -36,24 +36,24 @@ export const en: Dictionary = {
   },
 
   aboutBlock: {
-  title: "About",
-  name: "Caio Castelhano",
+    title: "About",
+    name: "Caio Castelhano",
 
-  lead:
-    "Full-stack developer focused on Ruby on Rails and web product development.",
+    lead:
+      "Full-stack developer focused on Ruby on Rails and Next.js, with a product of my own in production and websites delivered to clients.",
 
-  supportingText:
-    "I primarily work on building complete web applications, from product conception and architecture to development, deployment, and ongoing maintenance.",
+    supportingText:
+      "I build complete web applications, from product conception and architecture to development, deployment, and maintenance.",
 
-  paragraphOne:
-    "I work with Ruby on Rails, PostgreSQL, JavaScript, React, and Next.js. In my projects, I usually take ownership of the entire development lifecycle, including data modeling, feature implementation, user experience, accessibility, and infrastructure.",
+    paragraphOne:
+      "I work with Ruby on Rails, PostgreSQL, JavaScript, React, and Next.js. I develop and maintain STRAKS, a Rails platform for organizing concerts. I have also built five client websites from scratch in Next.js, handling visual identity, deployment, and domain setup. In my projects, I take on the full cycle: data modeling, features, user experience, accessibility, and infrastructure.",
 
-  paragraphTwoPartOne:
-    "Before transitioning into technology, I spent more than ten years working in communications. I also have a background in Philosophy and Film Direction, experiences that continue to influence how I think about products, storytelling, design, and problem-solving. I currently work as a Teacher and Teacher Assistant at",
+    paragraphTwoPartOne:
+      "Before programming, I spent more than ten years working in social media, as an editor and social media manager. I also have a background in Philosophy and Film Direction, which shapes how I think about products, storytelling, and problem-solving. I am currently studying Systems Analysis and Development (ADS) at Estácio and work as a Teacher and Teacher Assistant in the AI Software Bootcamp at",
 
-  paragraphTwoPartTwo:
-    "supporting students throughout their learning journey while continuing to strengthen my own technical and mentoring skills.",
-},
+    paragraphTwoPartTwo:
+      "supporting students in debugging, code review, and projects, which also strengthens my own technical foundation.",
+  },
 
   projectTypes: {
     freelancer: "Freelance project",

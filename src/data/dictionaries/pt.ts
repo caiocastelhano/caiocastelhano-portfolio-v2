@@ -40,19 +40,19 @@ export const pt: Dictionary = {
     name: "Caio Castelhano",
 
     lead:
-      "Desenvolvedor full-stack com foco em Ruby on Rails e desenvolvimento de produtos web.",
+      "Desenvolvedor full-stack com foco em Ruby on Rails e Next.js, com produto próprio em produção e sites entregues para clientes.",
 
     supportingText:
-      "Atuo principalmente na construção de aplicações completas, da concepção do produto e arquitetura até o desenvolvimento, deploy e manutenção.",
+      "Construo aplicações completas, da concepção e arquitetura até o desenvolvimento, deploy e manutenção.",
 
     paragraphOne:
-      "Trabalho com Ruby on Rails, PostgreSQL, JavaScript, React e Next.js. Nos projetos, costumo assumir todo o ciclo de desenvolvimento, incluindo modelagem de dados, implementação de funcionalidades, experiência do usuário, acessibilidade e infraestrutura.",
+      "Trabalho com Ruby on Rails, PostgreSQL, JavaScript, React e Next.js. Desenvolvo e mantenho o STRAKS, plataforma em Rails para organização de shows. Também criei do zero cinco sites para clientes em Next.js, cuidando da identidade visual, do deploy e da configuração de domínio. Nos projetos, assumo o ciclo completo: modelagem de dados, funcionalidades, experiência do usuário, acessibilidade e infraestrutura.",
 
     paragraphTwoPartOne:
-      "Antes de migrar para tecnologia, trabalhei por mais de dez anos com comunicação. Também tenho bagagem em Filosofia e Direção Cinematográfica, experiências que influenciam a forma como penso produtos, narrativa, design e resolução de problemas. Atualmente, também atuo como professor e professor assistente na",
+      "Antes de programar, trabalhei por mais de dez anos com redes sociais, como editor e gerente de mídias sociais. Também tenho formação em Filosofia e Direção Cinematográfica, que influenciam a forma como penso produtos, narrativa e resolução de problemas. Estou cursando Análise e Desenvolvimento de Sistemas na Estácio e atuo como Teacher e Teacher Assistant no AI Software Bootcamp do",
 
     paragraphTwoPartTwo:
-      "apoiando alunos em seu processo de aprendizado, enquanto continuo aprimorando minhas habilidades técnicas e de mentoria.",
+      "acompanhando alunos em debugging, revisão de código e projetos, o que também fortalece minha própria base técnica.",
   },
 
   projectTypes: {
